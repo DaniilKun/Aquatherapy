@@ -1,0 +1,36 @@
+.about {
+  &__info {
+    display: flex;
+     
+        justify-content: center;
+         
+        
+         
+    
+  }
+  
+  &__txt{ 
+      width: 466px;
+      height: 170px;
+      justify-content: center;
+  }
+
+  &__subtitle {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  &__txt-info {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+}

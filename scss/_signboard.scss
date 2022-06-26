@@ -1,0 +1,40 @@
+.signboard {
+    display: block;
+    height: 600px;
+    background: url(../img/face.png);
+    
+    
+  &__title {
+    padding-top: 136px;
+    padding-bottom: 40px;
+    background: none;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  
+  &__h1 {
+    padding: 0 66px;
+    background: none;
+  }
+  
+  &__subtitle {
+    background: none;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+  }
+}.sheet {
+    background: none;
+    padding: 0 66px;
+  }

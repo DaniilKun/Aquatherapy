@@ -1,0 +1,38 @@
+.price {
+   
+  display: flex;
+  justify-content: space-around;
+  
+
+  &__img {
+    width: 18px;
+    height: 9px;
+  }
+
+  &__txt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+
+  &__txt:first-of-type{
+    margin-top: 103px;
+  }
+
+  &__under{
+    margin-top: 30px;
+    font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+  }
+}

@@ -1,0 +1,81 @@
+.sessions {
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  margin-top: 150px;
+  color: white;
+  margin-bottom: 100px;
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card {
+  display: flex;
+
+  &__big {
+    width: 416px;
+    height: 540px;
+    background: url(../img/BigDiving.png);
+    margin-right: 24px;
+  }
+
+  &__txt-big {
+    background: none;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    margin-top: 456px;
+    margin-left: 50px;
+    text-align: start;
+  }
+
+  &__four {
+    display: flex;
+    margin-bottom: 24px;
+  }
+
+  &__four:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &__small {margin-right: 24px;
+    position: relative;
+    width: 416px;
+    height: 258px;
+    background: url(../img/Diving.png);
+  }
+
+  &__small:last-of-type{
+    margin-right: 0;
+  }
+
+  &__txt {
+    padding: 30px 40px;
+    position: absolute;
+    background: none;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+    text-align: start;
+  }
+}

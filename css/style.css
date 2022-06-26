@@ -1,0 +1,499 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=El Messiri:wght@300;400;500;700&display=swap");
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1298px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.header__but {
+  background: #018abe;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+.header__menu {
+  text-decoration: none;
+  color: white;
+  padding-right: 50px;
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.header__menu:last-of-type {
+  padding-right: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: #162831;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1296px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.sessions {
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  margin-top: 150px;
+  color: white;
+  margin-bottom: 100px;
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__big {
+  width: 416px;
+  height: 540px;
+  background: url(../img/BigDiving.png);
+  margin-right: 24px;
+}
+
+.card__txt-big {
+  background: none;
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: 456px;
+  margin-left: 50px;
+  text-align: start;
+}
+
+.card__four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.card__four:last-of-type {
+  margin-bottom: 0;
+}
+
+.card__small {
+  margin-right: 24px;
+  position: relative;
+  width: 416px;
+  height: 258px;
+  background: url(../img/Diving.png);
+}
+
+.card__small:last-of-type {
+  margin-right: 0;
+}
+
+.card__txt {
+  padding: 30px 40px;
+  position: absolute;
+  background: none;
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  left: 0;
+  bottom: 0;
+  text-align: start;
+}
+
+.signboard {
+  display: block;
+  height: 600px;
+  background: url(../img/face.png);
+}
+
+.signboard__title {
+  padding-top: 136px;
+  padding-bottom: 40px;
+  background: none;
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.signboard__h1 {
+  padding: 0 66px;
+  background: none;
+}
+
+.signboard__subtitle {
+  background: none;
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sheet {
+  background: none;
+  padding: 0 66px;
+}
+
+.about__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about__txt {
+  width: 466px;
+  height: 170px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about__subtitle {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.about__txt-info {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.price__img {
+  width: 18px;
+  height: 9px;
+}
+
+.price__txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 31px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.price__txt:first-of-type {
+  margin-top: 103px;
+}
+
+.price__under {
+  margin-top: 30px;
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.map {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.map__box {
+  padding: 35px 45px;
+  margin-left: 48px;
+  width: 302px;
+  height: 220px;
+  background: #018abe;
+  border-radius: 10px;
+}
+
+.map__title {
+  background: #018abe;
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.map__subtitle {
+  background: #018abe;
+  margin-top: 21px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map__record {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px 15px;
+  gap: 10px;
+  background: #ffffff;
+  border-radius: 3px;
+  border: none;
+  padding: 9px 15px;
+  color: #018ABE;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/proximanova_black.eot");
+  src: local("☺"), url("../fonts/proximanova_black.woff") format("woff"), url("../fonts/proximanova_black.ttf") format("truetype"), url("../fonts/proximanova_black.svg") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/proximanova_bold.eot");
+  src: local("☺"), url("../fonts/proximanova_bold.woff") format("woff"), url("../fonts/proximanova_bold.ttf") format("truetype"), url("../fonts/proximanova_bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/proximanova_regular.eot");
+  src: local("☺"), url("../fonts/proximanova_regular.woff") format("woff"), url("../fonts/proximanova_regular.ttf") format("truetype"), url("../fonts/proximanova_regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=style.css.map */
